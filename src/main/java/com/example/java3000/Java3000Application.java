@@ -12,7 +12,7 @@ public class Java3000Application {
     @GetMapping("/mensaje")
 
     public  String mesaje(){
-        return "Welcome from Java to Azure";
+        return "Welcome from Java to Azure, despues del despliegue en WebApp!";
     }
 
     public static void main(String[] args) {
